@@ -18,13 +18,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.click(findTestObject('Object Repository/TC_002/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/TC_002/Page_CURA Healthcare Service/input_Username_username'), user)
+WebUI.setText(findTestObject('Object Repository/TC_002/Page_CURA Healthcare Service/input_Username_username'), GlobalVariable.usernameDev)
 
-WebUI.setText(findTestObject('Object Repository/TC_002/Page_CURA Healthcare Service/input_Password_password'), passFail)
+WebUI.setText(findTestObject('Object Repository/TC_002/Page_CURA Healthcare Service/input_Password_password'), GlobalVariable.passDevfail)
 
 WebUI.click(findTestObject('Object Repository/TC_002/Page_CURA Healthcare Service/button_Login'))
 

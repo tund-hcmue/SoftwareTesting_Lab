@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_003_Lab04,Chrome 85.0.4183.121,,,2020-10-12 01:02:32,2020-10-12 01:03:11,39.139s,PASSED
+,,,,,,,
+Test Cases/TC_003_LoginPassNull,Chrome 85.0.4183.121,,,2020-10-12 01:02:33,2020-10-12 01:02:42,9.094s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.121,,,2020-10-12 01:02:33,2020-10-12 01:02:35,1.716s,PASSED
+navigateToUrl(url),Chrome 85.0.4183.121,,,2020-10-12 01:02:35,2020-10-12 01:02:38,3.188s,PASSED
+"click(findTestObject(""Object Repository/TC_003/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 85.0.4183.121,,,2020-10-12 01:02:38,2020-10-12 01:02:39,1.200s,PASSED
+"setText(findTestObject(""Object Repository/TC_003/Page_CURA Healthcare Service/input_Username_username""), usernameQA)",Chrome 85.0.4183.121,,,2020-10-12 01:02:39,2020-10-12 01:02:40,0.753s,PASSED
+"click(findTestObject(""Object Repository/TC_003/Page_CURA Healthcare Service/button_Login""))",Chrome 85.0.4183.121,,,2020-10-12 01:02:40,2020-10-12 01:02:41,0.991s,PASSED
+"waitForElementPresent(findTestObject(""TC_003/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""), 30)",Chrome 85.0.4183.121,,,2020-10-12 01:02:41,2020-10-12 01:02:41,0.366s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TC_003/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""), ""Login failed! Please ensure the username and password are valid."")",Chrome 85.0.4183.121,,,2020-10-12 01:02:41,2020-10-12 01:02:42,0.331s,PASSED
+closeBrowser(),Chrome 85.0.4183.121,,,2020-10-12 01:02:42,2020-10-12 01:02:42,0.098s,PASSED
+,,,,,,,
+Test Cases/TC_005_LoginUserPassFail,Chrome 85.0.4183.121,,,2020-10-12 01:02:42,2020-10-12 01:02:50,7.900s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.121,,,2020-10-12 01:02:42,2020-10-12 01:02:43,0.654s,PASSED
+navigateToUrl(url),Chrome 85.0.4183.121,,,2020-10-12 01:02:43,2020-10-12 01:02:45,2.827s,PASSED
+"click(findTestObject(""Object Repository/TC_005/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 85.0.4183.121,,,2020-10-12 01:02:45,2020-10-12 01:02:46,0.922s,PASSED
+"setText(findTestObject(""Object Repository/TC_005/Page_CURA Healthcare Service/input_Username_username""), userQA_fail)",Chrome 85.0.4183.121,,,2020-10-12 01:02:46,2020-10-12 01:02:47,0.693s,PASSED
+"setText(findTestObject(""Object Repository/TC_005/Page_CURA Healthcare Service/input_Password_password""), passQA_fail)",Chrome 85.0.4183.121,,,2020-10-12 01:02:47,2020-10-12 01:02:48,0.686s,PASSED
+"click(findTestObject(""Object Repository/TC_005/Page_CURA Healthcare Service/button_Login""))",Chrome 85.0.4183.121,,,2020-10-12 01:02:48,2020-10-12 01:02:49,1.088s,PASSED
+"waitForElementPresent(findTestObject(""TC_005/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""), 30)",Chrome 85.0.4183.121,,,2020-10-12 01:02:49,2020-10-12 01:02:49,0.421s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TC_005/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""), ""Login failed! Please ensure the username and password are valid."")",Chrome 85.0.4183.121,,,2020-10-12 01:02:49,2020-10-12 01:02:50,0.324s,PASSED
+closeBrowser(),Chrome 85.0.4183.121,,,2020-10-12 01:02:50,2020-10-12 01:02:50,0.076s,PASSED
+,,,,,,,
+Test Cases/TC_001_LoginUserPassNull,Chrome 85.0.4183.121,,,2020-10-12 01:02:50,2020-10-12 01:02:56,6.216s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.121,,,2020-10-12 01:02:50,2020-10-12 01:02:50,0.593s,PASSED
+navigateToUrl(url),Chrome 85.0.4183.121,,,2020-10-12 01:02:50,2020-10-12 01:02:53,2.726s,PASSED
+"click(findTestObject(""Object Repository/TC_001/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 85.0.4183.121,,,2020-10-12 01:02:53,2020-10-12 01:02:54,0.866s,PASSED
+"click(findTestObject(""Object Repository/TC_001/Page_CURA Healthcare Service/button_Login""))",Chrome 85.0.4183.121,,,2020-10-12 01:02:54,2020-10-12 01:02:55,1.050s,PASSED
+"waitForElementPresent(findTestObject(""TC_001/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""), 30)",Chrome 85.0.4183.121,,,2020-10-12 01:02:55,2020-10-12 01:02:55,0.457s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TC_001/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""), ""Login failed! Please ensure the username and password are valid."")",Chrome 85.0.4183.121,,,2020-10-12 01:02:55,2020-10-12 01:02:56,0.296s,PASSED
+closeBrowser(),Chrome 85.0.4183.121,,,2020-10-12 01:02:56,2020-10-12 01:02:56,0.085s,PASSED
+,,,,,,,
+Test Cases/TC_002_LoginPassFail,Chrome 85.0.4183.121,,,2020-10-12 01:02:56,2020-10-12 01:03:03,7.561s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.121,,,2020-10-12 01:02:56,2020-10-12 01:02:57,0.672s,PASSED
+navigateToUrl(url),Chrome 85.0.4183.121,,,2020-10-12 01:02:57,2020-10-12 01:02:59,2.625s,PASSED
+"click(findTestObject(""Object Repository/TC_002/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 85.0.4183.121,,,2020-10-12 01:02:59,2020-10-12 01:03:00,0.859s,PASSED
+"setText(findTestObject(""Object Repository/TC_002/Page_CURA Healthcare Service/input_Username_username""), usernameQA)",Chrome 85.0.4183.121,,,2020-10-12 01:03:00,2020-10-12 01:03:01,0.702s,PASSED
+"setText(findTestObject(""Object Repository/TC_002/Page_CURA Healthcare Service/input_Password_password""), passQA_fail)",Chrome 85.0.4183.121,,,2020-10-12 01:03:01,2020-10-12 01:03:02,0.656s,PASSED
+"click(findTestObject(""Object Repository/TC_002/Page_CURA Healthcare Service/button_Login""))",Chrome 85.0.4183.121,,,2020-10-12 01:03:02,2020-10-12 01:03:03,1.078s,PASSED
+"waitForElementPresent(findTestObject(""TC_003/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""), 30)",Chrome 85.0.4183.121,,,2020-10-12 01:03:03,2020-10-12 01:03:03,0.406s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TC_002/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""), ""Login failed! Please ensure the username and password are valid."")",Chrome 85.0.4183.121,,,2020-10-12 01:03:03,2020-10-12 01:03:03,0.310s,PASSED
+closeBrowser(),Chrome 85.0.4183.121,,,2020-10-12 01:03:03,2020-10-12 01:03:03,0.082s,PASSED
+,,,,,,,
+Test Cases/TC_004_LoginSuccesful,Chrome 85.0.4183.121,,,2020-10-12 01:03:03,2020-10-12 01:03:11,8.030s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.121,,,2020-10-12 01:03:04,2020-10-12 01:03:04,0.644s,PASSED
+navigateToUrl(url),Chrome 85.0.4183.121,,,2020-10-12 01:03:04,2020-10-12 01:03:07,3.124s,PASSED
+"click(findTestObject(""Object Repository/TC_004/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 85.0.4183.121,,,2020-10-12 01:03:07,2020-10-12 01:03:08,0.833s,PASSED
+"setText(findTestObject(""Object Repository/TC_004/Page_CURA Healthcare Service/input_Username_username""), usernameQA)",Chrome 85.0.4183.121,,,2020-10-12 01:03:08,2020-10-12 01:03:09,0.760s,PASSED
+"setText(findTestObject(""Object Repository/TC_004/Page_CURA Healthcare Service/input_Password_password""), passQA)",Chrome 85.0.4183.121,,,2020-10-12 01:03:09,2020-10-12 01:03:10,0.689s,PASSED
+"click(findTestObject(""Object Repository/TC_004/Page_CURA Healthcare Service/button_Login""))",Chrome 85.0.4183.121,,,2020-10-12 01:03:10,2020-10-12 01:03:11,1.020s,PASSED
+"waitForElementPresent(findTestObject(""TC_004/Page_CURA Healthcare Service/h2_Make Appointment""), 30)",Chrome 85.0.4183.121,,,2020-10-12 01:03:11,2020-10-12 01:03:11,0.414s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TC_004/Page_CURA Healthcare Service/h2_Make Appointment""), ""Make Appointment"")",Chrome 85.0.4183.121,,,2020-10-12 01:03:11,2020-10-12 01:03:11,0.286s,PASSED
+closeBrowser(),Chrome 85.0.4183.121,,,2020-10-12 01:03:11,2020-10-12 01:03:11,0.085s,PASSED
