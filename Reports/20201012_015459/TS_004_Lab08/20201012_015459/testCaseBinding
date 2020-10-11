@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/TC_006_dataFile - Iteration 1","testCaseId":"Test Cases/TC_006_dataFile","bindedValues":{"pass":"\u0027123\u0027","username":"\u0027user1\u0027"}}
+{"testCaseName":"Test Cases/TC_006_dataFile - Iteration 2","testCaseId":"Test Cases/TC_006_dataFile","bindedValues":{"pass":"\u0027234\u0027","username":"\u0027user2\u0027"}}
+{"testCaseName":"Test Cases/TC_006_dataFile - Iteration 3","testCaseId":"Test Cases/TC_006_dataFile","bindedValues":{"pass":"\u0027123\u0027","username":"\u0027user3\u0027"}}
+{"testCaseName":"Test Cases/TC_006_dataFile - Iteration 4","testCaseId":"Test Cases/TC_006_dataFile","bindedValues":{"pass":"\u0027ThisIsNotAPasswo\u0027","username":"\u0027John Doe\u0027"}}
+{"testCaseName":"Test Cases/TC_006_dataFile - Iteration 5","testCaseId":"Test Cases/TC_006_dataFile","bindedValues":{"pass":"\u0027ThisIsNotAPassword\u0027","username":"\u0027user5\u0027"}}
