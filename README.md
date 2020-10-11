@@ -1,2 +1,2 @@
 # SoftwareTesting_Lab1-8
-Ng
+# Nguyễn Doãn Tứ - 43.01.104.196
