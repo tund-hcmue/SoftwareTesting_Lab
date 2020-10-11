@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_001_Lab01</name>
+   <name>TS_002_Lab02</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,15 +10,45 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>56e40404-bbb0-4c7a-8e19-82ffd88f3a2b</testSuiteGuid>
+   <testSuiteGuid>e7a6de99-cad2-439e-ad29-02e341cd0138</testSuiteGuid>
    <testCaseLink>
-      <guid>c5ef135b-539b-45fc-88f8-6541cdf7d8a8</guid>
+      <guid>c8fb8bf1-3a92-4cd6-a958-9aa67d826394</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_003_LoginPassNull</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6267f7ef-80cf-4236-a424-6e64dd9bc5f8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7d655ad7-e089-4288-b643-070aec4e12b5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_005_LoginUserPassFail</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>accb3c89-04a1-464f-81db-21e339c55434</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f6feba18-356c-4abd-a446-6271f4fbb617</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e94d7410-83ac-4052-a89b-66666a549113</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_001_LoginUserPassNull</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9e637c6f-cb2c-41ff-999f-d59f05c3d950</guid>
+      <guid>2f329780-b30e-41f1-bd37-9fa75fa9f6f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_002_LoginPassFail</testCaseId>
@@ -36,19 +66,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>bf05b69f-ee16-470b-a3d4-f78103a950a5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_003_LoginPassNull</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6267f7ef-80cf-4236-a424-6e64dd9bc5f8</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>11eb029a-8c62-46b2-b0a4-792e72aca9b4</guid>
+      <guid>bb2dee7f-6a0a-421a-8cfd-04214c3c4965</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_004_LoginSuccesful</testCaseId>
@@ -63,24 +81,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>c0c9ba20-3419-441d-a129-10acf0f912be</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d79e8387-6822-4b64-9c7a-1f40e2162402</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_005_LoginUserPassFail</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>accb3c89-04a1-464f-81db-21e339c55434</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f6feba18-356c-4abd-a446-6271f4fbb617</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

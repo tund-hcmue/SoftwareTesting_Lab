@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c10c2be1-f335-484a-bc13-80d1295e98bb</testCaseGuid>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>36eab0af-013d-48ca-b432-f41c7fb7f91b</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'123'</defaultValue>
+      <description></description>
+      <id>1bd1f0b8-6a36-4a66-876d-4b4443623739</id>
+      <masked>false</masked>
+      <name>passFail</name>
+   </variable>
 </TestCaseEntity>
