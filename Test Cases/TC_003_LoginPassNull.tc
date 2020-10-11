@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_003_LoginPassNull</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2959bc23-002f-42fb-91ec-516c956a04af</testCaseGuid>
+</TestCaseEntity>

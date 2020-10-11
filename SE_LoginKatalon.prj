@@ -6,6 +6,7 @@
    <UUID>04b7da7c-e09b-42e9-853e-522506800613</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/home/tund/Katalon Studio/SE_LoginKatalon/SE_LoginKatalon.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

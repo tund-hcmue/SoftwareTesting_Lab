@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_005_LoginUserPassFail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d86dce76-bd2b-414a-9f83-6f60cb92abf2</testCaseGuid>
+</TestCaseEntity>
