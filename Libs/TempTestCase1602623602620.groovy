@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/tmp/Katalon/Test Cases/TC_006_dataFile/20201012_015434/execution.properties')
+RunConfiguration.setExecutionSettingFile('/tmp/Katalon/Test Cases/TC_001_LoginUserPassNull/20201014_041322/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/TC_006_dataFile', new TestCaseBinding('Test Cases/TC_006_dataFile',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/TC_001_LoginUserPassNull', new TestCaseBinding('Test Cases/TC_001_LoginUserPassNull',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
